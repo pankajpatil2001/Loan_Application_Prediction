@@ -1,4 +1,4 @@
-adal==1.2.7
+﻿adal==1.2.7
 aiohttp==3.8.5
 aiosignal==1.3.1
 aiounittest==1.4.2
@@ -32,7 +32,6 @@ comm==0.1.2
 contourpy==1.1.1
 cryptography==41.0.7
 cycler==0.12.1
-Cython==3.0.6
 debugpy==1.6.4
 decorator==5.1.1
 defusedxml==0.7.1
@@ -93,8 +92,6 @@ msal==1.26.0
 msrest==0.7.1
 msrestazure==0.6.4
 multidict==6.0.4
-mysql==0.0.3
-mysqlclient==2.2.1
 nbclassic==0.4.8
 nbclient==0.7.2
 nbconvert==7.2.7
@@ -133,8 +130,6 @@ pyrsistent==0.19.3
 python-dateutil==2.8.2
 python-json-logger==2.0.4
 pytz==2023.3.post1
-pywin32==305
-pywinpty==2.0.9
 PyYAML==6.0
 pyzmq==24.0.1
 qtconsole==5.4.0
@@ -145,12 +140,11 @@ requests-oauthlib==1.3.1
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rsa==4.9
-scikit-learn==1.3.2
+scikit-learn>=0.24.2,<1.4.0
 scipy==1.11.3
 seaborn==0.13.0
 Send2Trash==1.8.0
 six==1.16.0
-sklearn==0.0.post10
 sniffio==1.3.0
 soupsieve==2.3.2.post1
 stack-data==0.6.2
